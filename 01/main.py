@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-df_path = '01\BasedeDadosAdata.xlsx'
+df_path = '01/BasedeDadosAdata.xlsx'
 
-coordenadas_path = '01\COORDENADAS.xlsx'
+coordenadas_path = '01/COORDENADAS.xlsx'
 
 
-grafico_1turno_path = '01\1TURNOGRAFICO.xlsx'
-grafico_zonas_path = '01\ZONASGRAFICO.xlsx'
+grafico_1turno_path = '01/1TURNOGRAFICO.xlsx'
+grafico_zonas_path = '01/ZONASGRAFICO.xlsx'
 
 dfg1 = pd.read_excel(grafico_1turno_path)
 dfg2 = pd.read_excel(grafico_zonas_path)
