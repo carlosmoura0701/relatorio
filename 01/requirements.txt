@@ -4,7 +4,7 @@ pathlib
 streamlit_extras
 pandas
 streamlit>=1.11.1
-openpyxl
+
 
 
 
