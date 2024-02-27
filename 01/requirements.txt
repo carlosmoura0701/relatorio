@@ -1,0 +1,13 @@
+numpy
+altair
+pathlib
+streamlit_extras
+pandas
+streamlit>=1.11.1
+
+
+
+
+
+
+
