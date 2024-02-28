@@ -2,15 +2,15 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-df_path = '/home/carlos/Dropbox/code/relatorios/01/Base de Dados Adata.xlsx'
+df_path = '01/Base de Dados Adata.xlsx'
 
-turno_1_coordenadas_path = '/home/carlos/Dropbox/code/relatorios/01/1TURNO.xlsx'
-turno_2_coordenadas_path = '/home/carlos/Dropbox/code/relatorios/01/2TURNO.xlsx'
-turno_3_coordenadas_path = '/home/carlos/Dropbox/code/relatorios/01/3TURNO.xlsx'
-turno_comercial_coordenadas_path = '/home/carlos/Dropbox/code/relatorios/01/COMERCIAL.xlsx'
+turno_1_coordenadas_path = '01/1TURNO.xlsx'
+turno_2_coordenadas_path = '01/2TURNO.xlsx'
+turno_3_coordenadas_path = '01/3TURNO.xlsx'
+turno_comercial_coordenadas_path = '01/COMERCIAL.xlsx'
 
-grafico_1turno_path = '/home/carlos/Dropbox/code/relatorios/01/1TURNOGRAFICO.xlsx'
-grafico_zonas_path = '/home/carlos/Dropbox/code/relatorios/01/ZONASGRAFICO.xlsx'
+grafico_1turno_path = '01/1TURNOGRAFICO.xlsx'
+grafico_zonas_path = '01/ZONASGRAFICO.xlsx'
 
 dfg1 = pd.read_excel(grafico_1turno_path)
 dfg2 = pd.read_excel(grafico_zonas_path)
